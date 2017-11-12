@@ -3,7 +3,7 @@ components:
   - name: spring-app
     os: linux
     repository:
-      git: https://git@github.com:Samith88/bitesize_training.git
+      git: https://github.com/Samith88/bitesize_training
       branch: master
     build:
       - shell: sudo mvn clean package
