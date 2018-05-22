@@ -1,9 +1,9 @@
-project: samithp
+project: bitesizedemo
 components:
   - name: spring-app
     os: linux
     repository:
-      git: https://github.com/hariprasad-karthigasu/bitesize-workshop-springapp
+      git: git@github.com:Samith88/spring-boot.git
       branch: master
     build:
       - shell: sudo mvn clean package
