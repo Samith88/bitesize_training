@@ -1,12 +1,12 @@
 project: bitesizedemo
 environments:
-  - name: Development
+  - name: dev
     namespace: bitesizedemo-dev
     deployment:
       method: rolling-upgrade
     services:
-      - name: spring-boot
-        external_url: samithpapp.bst.prsn-dev.io
-        port: 8080 
+      - name: spring-app
+        external_url: samithapp.prsn.io
+        port: 8080
         ssl: "false"
         replicas: 2
