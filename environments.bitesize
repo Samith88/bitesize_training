@@ -5,9 +5,8 @@ environments:
     deployment:
       method: rolling-upgrade
     services:
-      - name: spring-app
+      - name: spring-boot
         external_url: samithpapp.bst.prsn-dev.io
         port: 8080 
         ssl: "false"
-        replicas: 1
-
+        replicas: 2
