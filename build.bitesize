@@ -3,7 +3,7 @@ components:
   - name: spring-app
     os: linux
     repository:
-      git: ssh://git@bitbucket.pearson.com/~udisssa1/sprintboot.git
+      git: git@github.com:Samith88/spring-boot-1.git
       branch: master
     build:
       - shell: sudo mkdir -p /app
