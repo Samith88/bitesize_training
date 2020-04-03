@@ -1,7 +1,7 @@
 project: clietsUtilities
 environments:
   - name: dev
-    namespace: clietsUtilities-dev
+    namespace: client-utilities-dev
     services:
       - name: client-utilities
         replicas: 1
