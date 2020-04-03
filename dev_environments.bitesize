@@ -1,4 +1,4 @@
-project: clietsUtilities
+project: client-utilities
 environments:
   - name: dev
     namespace: client-utilities-dev
