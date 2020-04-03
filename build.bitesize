@@ -1,4 +1,4 @@
-project: bitesizedemo
+project: clietsUtilities
 components:
   - name: spring-app
     os: linux
