@@ -1,4 +1,4 @@
-project: bitesizedemo
+project: clietsUtilities
 environments:
   - name: dev
     namespace: bitesizedemo-dev
