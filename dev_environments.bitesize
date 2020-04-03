@@ -12,3 +12,6 @@ environments:
           cpu: 1000m
         deployment:
           method: rolling-upgrade
+        env:
+          - name: namespace
+            value: client-utilities-dev 
