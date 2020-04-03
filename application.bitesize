@@ -1,4 +1,4 @@
-project: bitesizedemo
+project: clietsUtilities
 applications:
   - name: spring-app
     runtime: ubuntu-jdk8:1.0
