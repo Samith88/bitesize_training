@@ -1,0 +1,14 @@
+project: clietsUtilities
+environments:
+  - name: dev
+    namespace: clietsUtilities-dev
+    services:
+      - name: client-utilities
+        replicas: 1
+        application: client-utilities
+        version: 
+        limits:
+          memory: 512Mi
+          cpu: 1000m
+        deployment:
+          method: rolling-upgrade
