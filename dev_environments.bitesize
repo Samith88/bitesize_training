@@ -6,7 +6,7 @@ environments:
       - name: client-utilities
         replicas: 1
         application: client-utilities
-        version: 17.0
+        version: 18.0
         limits:
           memory: 128Mi
           cpu: 100m
