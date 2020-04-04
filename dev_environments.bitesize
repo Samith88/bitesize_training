@@ -8,8 +8,8 @@ environments:
         application: client-utilities
         version: 17.0
         limits:
-          memory: 256Mi
-          cpu: 500m
+          memory: 128Mi
+          cpu: 100m
         deployment:
           method: rolling-upgrade
         env:
