@@ -14,4 +14,4 @@ environments:
           method: rolling-upgrade
         env:
           - name: namespace
-            value: client-utilities-dev
+            value: lass-dev
