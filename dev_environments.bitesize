@@ -1,7 +1,7 @@
-project: client-utilities
+project: lass
 environments:
   - name: dev
-    namespace: client-utilities-dev
+    namespace: lass-dev
     services:
       - name: client-utilities
         replicas: 1
