@@ -1,10 +1,10 @@
-project: sample
+project: mytest
 environments:
   - name: dev
-    namespace: sample-dev
+    namespace: mytest-dev
     services:
       - name: sample_sever
-        external_url: sample-dev-sample-sever-dev.bite.pearsondev.tech
+        external_url: mytest-dev-sample-sever-dev.bite.pearsondev.tech
         port: 8000
         replicas: 1
         application: sample_sever

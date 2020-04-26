@@ -1,10 +1,10 @@
-project: sample
+project: nstest
 environments:
   - name: dev
-    namespace: sample-dev
+    namespace: nstest-dev
     services:
       - name: sample_sever
-        external_url: sample-dev-sample-sever-dev.bite.pearsondev.tech
+        external_url: nstest-dev-sample-sever-dev.bite.pearsondev.tech
         port: 8000
         replicas: 1
         application: sample_sever
