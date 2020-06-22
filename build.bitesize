@@ -1,4 +1,4 @@
-project: clietsUtilities
+project: checkmarx-testing
 components:
   - name: spring-app
     os: linux
