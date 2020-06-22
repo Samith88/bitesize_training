@@ -1,7 +1,7 @@
 project: checkmarx-testing
 environments:
   - name: dev
-    namespace: bitesizedemo-dev
+    namespace: checkmarx-testing-dev
     deployment:
       method: rolling-upgrade
     services:
